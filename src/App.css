@@ -1,4 +1,4 @@
-.App {
+ .App {
   text-align: center;
 }
 
@@ -35,4 +35,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  height: 40px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.todo{
+  display: flex;
+  font-size: 24px;
+  flex: 1;
+}
+.container-sm{
+  height: 100vh;
 }
