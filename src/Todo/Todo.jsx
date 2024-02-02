@@ -40,7 +40,7 @@ function Todo() {
 
     return (
         <>
-            <div className="container-sm bg-dark text-center">
+            <div className="container-sm large text-center">
                 <h1 className="text-info">Todo App</h1>
                 <form onSubmit={handleSubmit}>
                     <input 
